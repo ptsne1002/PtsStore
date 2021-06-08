@@ -17,7 +17,9 @@ namespace PtsStore
         private ConnectDB connectDB = new ConnectDB();
         private Thread thread;
         private string userName;
+        private int staffId;
         private string password;
+        private string staffName;
         public LoginForm()
         {
             InitializeComponent();
@@ -38,13 +40,17 @@ namespace PtsStore
 
             OracleCommand cmd = new OracleCommand();
             cmd.Connection = connectDB.GetConnectionDB();
-            cmd.CommandText = "select username,password from account where username ='" + userName+"' and password = '"+password+"'";
+            cmd.CommandText = "select username,password,staffid,staffname from account where username ='" + userName+"' and password = '"+password+"'";
             try
             {
                 OracleDataReader dr = cmd.ExecuteReader();
                 dr.Read();
                 if(userName == dr.GetString(0)&& password == dr.GetString(1))
                 {
+                    staffId = dr.GetInt32(2);
+                    Temp.staffId = staffId;
+                    staffName = dr.GetString(3);
+                    Temp.staffName = staffName;
                     thread = new Thread(openMainForm);
                     thread.SetApartmentState(ApartmentState.STA);
                     thread.Start();
@@ -53,14 +59,16 @@ namespace PtsStore
             }
             catch (Exception ex)
             {
-                MessageBox.Show("User Name Or Password Error\n\tPlease Try Again", "Fail To Login");
+                MessageBox.Show(/*"User Name Or Password Error\n\tPlease Try Again"*/ex.Message, "Fail To Login");
             }
             connectDB.CloseConnection();
         }
 
         private void openMainForm()
         {
+            
             Application.Run(new MainForm());
+            
         }
 
         private void txtPass_KeyDown(object sender, KeyEventArgs e)
@@ -87,6 +95,14 @@ namespace PtsStore
                 txtPassUnhide.Hide();
                 txtPassHide.Text = txtPassUnhide.Text;
 
+            }
+        }
+
+        private void txtPassUnhide_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnLogin_Click_1(sender, e);
             }
         }
     }

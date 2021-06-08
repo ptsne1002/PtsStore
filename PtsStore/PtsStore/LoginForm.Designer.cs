@@ -57,7 +57,7 @@ namespace PtsStore
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(442, -2);
+            this.pictureBox1.Location = new System.Drawing.Point(442, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(489, 387);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -204,7 +204,7 @@ namespace PtsStore
             this.txtPassHide.Location = new System.Drawing.Point(210, 170);
             this.txtPassHide.MaxLength = 32767;
             this.txtPassHide.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txtPassHide.Modified = true;
+            this.txtPassHide.Modified = false;
             this.txtPassHide.Multiline = false;
             this.txtPassHide.Name = "txtPassHide";
             stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
@@ -361,6 +361,7 @@ namespace PtsStore
             this.txtPassUnhide.UseSystemPasswordChar = false;
             this.txtPassUnhide.Visible = false;
             this.txtPassUnhide.WordWrap = true;
+            this.txtPassUnhide.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPassUnhide_KeyDown);
             // 
             // LoginForm
             // 

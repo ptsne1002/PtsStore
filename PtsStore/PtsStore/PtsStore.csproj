@@ -191,6 +191,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Temp.cs" />
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -211,6 +212,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-hide-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4815b63434fdfb0ee2231dc27b98a4c0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookstore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookstore %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
