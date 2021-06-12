@@ -17,10 +17,10 @@ namespace PtsStore
         public MainForm()
         {
             InitializeComponent();
-            panelWidth = panelMenu.Width;
+            panelWidth = pnMenu.Width;
             isCollapsed = false;
             timer2.Start();
-            lbHello.Text = "Hello "+Temp.staffName;
+            lbHello.Text = "Hello " + Temp.staffName;
         }
 
         private void bunifuButton1_Click(object sender, EventArgs e)
@@ -44,29 +44,6 @@ namespace PtsStore
             panelSide.Height = btn.Height;
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            if (isCollapsed)
-            {
-                panelMenu.Width = panelMenu.Width + 20;
-                if (panelMenu.Width >= panelWidth)
-                {
-                    timer1.Stop();
-                    isCollapsed = false;
-                    this.Refresh();
-                }
-            }
-            else
-            {
-                panelMenu.Width = panelMenu.Width - 20;
-                if(panelMenu.Width <= 65)
-                {
-                    timer1.Stop();
-                    isCollapsed = true;
-                    this.Refresh();
-                }
-            }
-        }
 
         private void btnHome_Click(object sender, EventArgs e)
         {
@@ -84,5 +61,50 @@ namespace PtsStore
             lbDate.Text = DateTime.Now.ToString("dd/MM/yyyy");
         }
 
+        private void btnMinize_Click(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (isCollapsed)
+            {
+                pnMenu.Width = pnMenu.Width + 20;
+                if (pnMenu.Width >= panelWidth)
+                {
+                    timer1.Stop();
+                    isCollapsed = false;
+                    this.Refresh();
+                }
+            }
+            else
+            {
+                pnMenu.Width = pnMenu.Width - 20;
+                if (pnMenu.Width <= 60)
+                {
+                    timer1.Stop();
+                    isCollapsed = true;
+                    this.Refresh();
+                }
+            }
+        }
+
+
+
+        private void btnBookSale_Click_1(object sender, EventArgs e)
+        {
+            movieSidePanel(btnBookSale);
+        }
+
+        private void btnHome_Click_1(object sender, EventArgs e)
+        {
+            movieSidePanel(btnHome);
+        }
+
+        private void bunifuImageButton1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

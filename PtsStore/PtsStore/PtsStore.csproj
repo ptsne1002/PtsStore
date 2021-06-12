@@ -201,6 +201,7 @@
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
@@ -211,19 +212,25 @@
     <None Include="Resources\16944.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icons8-hide-50.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\4815b63434fdfb0ee2231dc27b98a4c0.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\library.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bookstore.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\hzk6C.gif" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\bookstore %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

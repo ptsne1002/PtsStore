@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="817ad4f2-8f02-4975-b47a-6d69fc4db4bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PtsStore/PtsStore/Resources/4815b63434fdfb0ee2231dc27b98a4c0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PtsStore/PtsStore/Resources/bookstore (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PtsStore/PtsStore/Resources/bookstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PtsStore/PtsStore/Resources/library.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PtsStore/PtsStore/Temp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/.vs/PtsStore/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/.vs/PtsStore/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/LoginForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/LoginForm.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/LoginForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/LoginForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/MainForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/MainForm.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/MainForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/MainForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/MainForm.resx" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/MainForm.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/Properties/Resources.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/Properties/Resources.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/Properties/Resources.resx" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/Properties/Resources.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/Properties/licenses.licx" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/Properties/licenses.licx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/PtsStore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/PtsStore.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/bin/Debug/PtsStore.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/bin/Debug/PtsStore.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/bin/Debug/PtsStore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/bin/Debug/PtsStore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/PtsStore.MainForm.resources" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/PtsStore.MainForm.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/PtsStore.Properties.Resources.resources" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/PtsStore.Properties.Resources.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/PtsStore.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/PtsStore.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/PtsStore.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/PtsStore.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/PtsStore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/PtsStore.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/PtsStore.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/PtsStore.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/PtsStore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/PtsStore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/ptsstore.exe.licenses" beforeDir="false" afterPath="$PROJECT_DIR$/PtsStore/PtsStore/obj/Debug/ptsstore.exe.licenses" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tfmBOOsKusb43XEpkDD7rozGYY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="817ad4f2-8f02-4975-b47a-6d69fc4db4bd" name="Default Changelist" comment="" />
+      <created>1623168394320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623168394320</updated>
+    </task>
+    <servers />
+  </component>
+</project>
